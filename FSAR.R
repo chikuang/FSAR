@@ -1,4 +1,4 @@
-
+require(fda)
 FSAR <- function(X, p = 10, my_lags, n_basis = 10, percent_CPV = 0.95){
   Nt <- ncol(X)
   N <- nrow(X)
